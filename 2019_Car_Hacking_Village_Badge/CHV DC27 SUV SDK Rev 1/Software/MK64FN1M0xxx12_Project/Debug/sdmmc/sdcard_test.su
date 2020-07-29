@@ -1,0 +1,2 @@
+sdcard_test.c:81:17:sdcardWaitCardInsert	8	static
+sdcard_test.c:119:6:sdcard_test	16	static

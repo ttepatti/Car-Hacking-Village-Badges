@@ -1,0 +1,12 @@
+core_cm0plus.h:731:22:__NVIC_EnableIRQ	16	static
+fsl_clock.h:420:20:CLOCK_SetTpmClock	16	static
+fsl_common.h:363:28:EnableIRQ	16	static
+fsl_gpio.h:161:20:GPIO_PinWrite	24	static
+fsl_tpm.h:552:20:TPM_ClearStatusFlags	16	static
+fsl_tpm.h:600:20:TPM_SetTimerPeriod	16	static
+fsl_tpm.h:634:20:TPM_StartTimer	24	static
+led.c:58:13:set_state	16	static
+led.c:91:6:TPM0_IRQHandler	16	static
+led.c:140:6:led_init	16	static
+led.c:174:6:led_set_state	16	static
+led.c:179:6:led_all_off	16	static

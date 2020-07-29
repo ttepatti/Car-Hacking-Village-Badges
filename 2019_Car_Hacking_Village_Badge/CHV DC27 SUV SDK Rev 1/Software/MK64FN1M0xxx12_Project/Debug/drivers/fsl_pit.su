@@ -1,0 +1,3 @@
+fsl_pit.c:42:17:PIT_GetInstance	8	static
+fsl_pit.c:68:6:PIT_Init	16	static
+fsl_pit.c:106:6:PIT_Deinit	8	static

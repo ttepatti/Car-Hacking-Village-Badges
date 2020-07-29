@@ -1,0 +1,14 @@
+fsl_clock.h:378:20:CLOCK_EnableClock	24	static
+fsl_clock.h:389:20:CLOCK_DisableClock	24	static
+fsl_tpm.c:68:17:TPM_GetInstance	24	static
+fsl_tpm.c:87:6:TPM_Init	16	static
+fsl_tpm.c:126:6:TPM_Deinit	16	static
+fsl_tpm.c:141:6:TPM_GetDefaultConfig	16	static
+fsl_tpm.c:172:10:TPM_SetupPwm	40	static
+fsl_tpm.c:376:6:TPM_UpdatePwmDutycycle	32	static
+fsl_tpm.c:432:6:TPM_UpdateChnlEdgeLevelSelect	24	static
+fsl_tpm.c:466:6:TPM_SetupInputCapture	16	static
+fsl_tpm.c:511:6:TPM_SetupOutputCompare	32	static
+fsl_tpm.c:717:6:TPM_EnableInterrupts	24	static
+fsl_tpm.c:740:6:TPM_DisableInterrupts	24	static
+fsl_tpm.c:763:10:TPM_GetEnabledInterrupts	24	static

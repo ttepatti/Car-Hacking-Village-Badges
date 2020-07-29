@@ -1,0 +1,5 @@
+fsl_ram_disk.c:37:9:ram_disk_status	0	static
+fsl_ram_disk.c:49:9:ram_disk_initialize	0	static
+fsl_ram_disk.c:61:9:ram_disk_read	8	static
+fsl_ram_disk.c:74:9:ram_disk_write	8	static
+fsl_ram_disk.c:87:9:ram_disk_ioctl	0	static

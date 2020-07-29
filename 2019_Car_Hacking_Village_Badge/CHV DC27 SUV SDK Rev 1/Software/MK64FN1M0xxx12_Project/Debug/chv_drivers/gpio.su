@@ -1,0 +1,2 @@
+gpio.c:53:6:gpio_init	16	static
+gpio.c:70:6:gpio_switch_get	0	static

@@ -1,0 +1,2 @@
+gyro.c:48:6:gyro_init	0	static
+gyro.c:53:6:gyro_get_values	0	static

@@ -1,0 +1,5 @@
+fsl_uart_freertos.c:19:13:UART_RTOS_Callback	16	static
+fsl_uart_freertos.c:67:5:UART_RTOS_Init	32	static
+fsl_uart_freertos.c:172:5:UART_RTOS_Deinit	8	static
+fsl_uart_freertos.c:209:5:UART_RTOS_Send	24	static
+fsl_uart_freertos.c:272:5:UART_RTOS_Receive	40	static

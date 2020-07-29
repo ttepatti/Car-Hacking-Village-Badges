@@ -1,0 +1,9 @@
+fsl_sdmmc_common.c:18:10:SDMMC_SelectCard	48	static
+fsl_sdmmc_common.c:51:10:SDMMC_SendApplicationCommand	48	static
+fsl_sdmmc_common.c:79:10:SDMMC_SetBlockCount	48	static
+fsl_sdmmc_common.c:100:10:SDMMC_GoIdle	56	static
+fsl_sdmmc_common.c:119:10:SDMMC_SetBlockSize	48	static
+fsl_sdmmc_common.c:140:10:SDMMC_SetCardInactive	48	static
+fsl_sdmmc_common.c:161:10:SDMMC_SwitchVoltage	8	static
+fsl_sdmmc_common.c:239:10:SDMMC_SwitchToVoltage	8	static
+fsl_sdmmc_common.c:326:10:SDMMC_ExecuteTuning	224	static

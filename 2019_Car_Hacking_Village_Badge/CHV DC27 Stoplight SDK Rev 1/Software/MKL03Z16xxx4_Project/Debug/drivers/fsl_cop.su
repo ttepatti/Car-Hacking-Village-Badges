@@ -1,0 +1,5 @@
+fsl_common.h:431:28:DisableGlobalIRQ	16	static
+fsl_common.h:458:24:EnableGlobalIRQ	24	static
+fsl_cop.c:41:6:COP_GetDefaultConfig	16	static
+fsl_cop.c:55:6:COP_Init	24	static
+fsl_cop.c:72:6:COP_Refresh	24	static

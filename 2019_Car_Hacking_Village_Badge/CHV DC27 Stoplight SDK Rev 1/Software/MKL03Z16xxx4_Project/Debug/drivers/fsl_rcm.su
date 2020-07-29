@@ -1,0 +1,2 @@
+fsl_rcm.c:37:6:RCM_ConfigureResetPinFilter	16	static
+fsl_rcm.c:60:6:RCM_SetForceBootRomSource	24	static

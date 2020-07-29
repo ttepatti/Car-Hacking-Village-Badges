@@ -1,0 +1,10 @@
+led_graphics.c:55:13:color_fade_next	20	static
+led_graphics.c:89:13:run_racer	24	static
+led_graphics.c:160:13:run_fade	32	static
+led_graphics.c:117:13:run_bling	24	static
+led_graphics.c:178:13:run_police	24	static
+led_graphics.c:261:13:run_fire	32	static
+led_graphics.c:318:13:run_eol	24	static
+led_graphics.c:369:13:vLEDTask	16	static
+led_graphics.c:409:6:led_graphics_init	16	static
+led_graphics.c:415:6:led_graphics_set_pattern	0	static

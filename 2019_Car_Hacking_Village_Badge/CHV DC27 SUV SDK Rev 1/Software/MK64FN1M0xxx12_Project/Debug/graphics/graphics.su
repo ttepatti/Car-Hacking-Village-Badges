@@ -1,0 +1,5 @@
+graphics.c:45:15:find_char_by_code	0	static
+graphics.c:95:17:string_length_pixels	24	static
+graphics.c:6:6:graphics_draw_bitmap_mono	48	static
+graphics.c:56:6:graphics_put_text	40	static
+graphics.c:115:6:graphics_draw_menu	16	static

@@ -1,0 +1,16 @@
+fsl_clock.h:378:20:CLOCK_EnableClock	24	static
+fsl_rtc.h:433:20:RTC_Reset	16	static
+fsl_rtc.c:79:13:RTC_CheckDatetimeFormat	40	static
+fsl_rtc.c:111:17:RTC_ConvertDatetimeToSeconds	56	static
+fsl_rtc.c:141:13:RTC_ConvertSecondsToDatetime	56	static
+fsl_rtc.c:212:6:RTC_Init	24	static
+fsl_rtc.c:250:6:RTC_GetDefaultConfig	16	static
+fsl_rtc.c:266:10:RTC_SetDatetime	16	static
+fsl_rtc.c:282:6:RTC_GetDatetime	24	static
+fsl_rtc.c:292:10:RTC_SetAlarm	24	static
+fsl_rtc.c:322:6:RTC_GetAlarm	24	static
+fsl_rtc.c:334:6:RTC_EnableInterrupts	24	static
+fsl_rtc.c:397:6:RTC_DisableInterrupts	24	static
+fsl_rtc.c:460:10:RTC_GetEnabledInterrupts	24	static
+fsl_rtc.c:521:10:RTC_GetStatusFlags	24	static
+fsl_rtc.c:584:6:RTC_ClearStatusFlags	16	static

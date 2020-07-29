@@ -1,0 +1,6 @@
+fsl_sdmmc_event.c:44:27:SDMMCEVENT_GetInstance	0	static
+fsl_sdmmc_event.c:64:6:SDMMCEVENT_Create	8	static
+fsl_sdmmc_event.c:84:6:SDMMCEVENT_Wait	8	static
+fsl_sdmmc_event.c:114:6:SDMMCEVENT_Notify	16	static
+fsl_sdmmc_event.c:139:6:SDMMCEVENT_Delete	8	static
+fsl_sdmmc_event.c:149:6:SDMMCEVENT_Delay	8	static

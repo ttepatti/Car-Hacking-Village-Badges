@@ -1,0 +1,10 @@
+core_cm0plus.h:731:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:363:28:EnableIRQ	16	static
+fsl_lptmr.h:203:20:LPTMR_EnableInterrupts	24	static
+fsl_lptmr.h:290:20:LPTMR_ClearStatusFlags	16	static
+fsl_lptmr.h:315:20:LPTMR_SetTimerPeriod	16	static
+fsl_lptmr.h:359:20:LPTMR_StartTimer	24	static
+timer.c:62:6:LPTMR0_IRQHandler	8	static
+timer.c:76:6:timer_init	16	static
+timer.c:111:10:timer_get_system_time	8	static
+timer.c:116:6:timer_delay	24	static

@@ -1,0 +1,9 @@
+fsl_sysmpu.c:71:6:SYSMPU_Deinit	0	static
+fsl_sysmpu.c:88:6:SYSMPU_GetHardwareInfo	8	static
+fsl_sysmpu.c:111:6:SYSMPU_SetRegionConfig	24	static
+fsl_sysmpu.c:36:6:SYSMPU_Init	16	static
+fsl_sysmpu.c:175:6:SYSMPU_SetRegionAddr	8	static
+fsl_sysmpu.c:203:6:SYSMPU_SetRegionRwxMasterAccessRights	24	static
+fsl_sysmpu.c:247:6:SYSMPU_SetRegionRwMasterAccessRights	24	static
+fsl_sysmpu.c:278:6:SYSMPU_GetSlavePortErrorStatus	0	static
+fsl_sysmpu.c:295:6:SYSMPU_GetDetailErrorAccessInfo	8	static

@@ -1,0 +1,6 @@
+usb_device_composite.c:634:14:USB_UpdateInterfaceSetting	16	static
+usb_device_composite.c:403:21:USB_DeviceCallback	8	static
+usb_device_composite.c:322:6:USB0_IRQHandler	8	static
+usb_device_composite.c:343:6:USB_DeviceIsrEnable	0	static
+usb_device_composite.c:662:14:USB_DeviceApplicationInit	16	static
+usb_device_composite.c:778:6:USB_DeviceTasks	8	static

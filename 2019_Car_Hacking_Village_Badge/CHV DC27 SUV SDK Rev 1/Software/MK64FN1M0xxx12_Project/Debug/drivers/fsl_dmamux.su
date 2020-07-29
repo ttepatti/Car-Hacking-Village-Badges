@@ -1,0 +1,3 @@
+fsl_dmamux.c:46:17:DMAMUX_GetInstance	8	static
+fsl_dmamux.c:72:6:DMAMUX_Init	8	static
+fsl_dmamux.c:86:6:DMAMUX_Deinit	8	static

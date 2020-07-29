@@ -1,0 +1,10 @@
+led.c:196:13:reset_columns	16	static
+led.c:213:13:shift_column	16	static
+led.c:109:6:led_init	64	static
+led.c:228:6:PIT0_IRQHandler	8	static
+led.c:281:10:led_get_framebuffer_address	0	static
+led.c:286:6:led_set_led	0	static
+led.c:294:6:led_set_driver_headlight	0	static
+led.c:299:6:led_set_passenger_headlight	0	static
+led.c:304:6:led_set_reverse_lights	0	static
+led.c:309:6:led_all_off	8	static

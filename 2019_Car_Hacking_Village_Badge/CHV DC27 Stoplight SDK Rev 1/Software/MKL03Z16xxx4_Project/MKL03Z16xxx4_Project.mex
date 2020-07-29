@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="" version="1.6" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.6 http://mcuxpresso.nxp.com/XSD/mex_configuration_1.6.xsd" uuid="f9036db0-2b4a-4df6-ba9f-dfd7fdd81e1a" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MKL03Z16xxx4</processor>
+      <package>MKL03Z16VFG4</package>
+      <board></board>
+      <mcu_data>ksdk2_0</mcu_data>
+      <cores selected="core0">
+         <core name="Cortex-M0P" id="core0" description="M0P core"/>
+      </cores>
+      <description>Configuration imported from MKL03Z16xxx4_Project</description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="6.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/pin_mux.c" update_enabled="true"/>
+            <file path="board/pin_mux.h" update_enabled="true"/>
+         </generated_project_files>
+         <pins_profile>
+            <processor_version>6.0.0</processor_version>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>core0</coreID>
+                  <enableClock>true</enableClock>
+               </options>
+               <dependencies>
+                  <dependency resourceType="Peripheral" resourceId="LPUART0" description="Peripheral LPUART0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="I2C0" description="Peripheral I2C0 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="SWD" description="Peripheral SWD is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="RCM" description="Peripheral RCM is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.port" description="Pins initialization requires the PORT Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <pins>
+                  <pin peripheral="GPIOA" signal="GPIO, 3" pin_num="3" pin_signal="EXTAL0/PTA3/I2C0_SCL/I2C0_SDA/LPUART0_TX"/>
+                  <pin peripheral="GPIOA" signal="GPIO, 4" pin_num="4" pin_signal="XTAL0/PTA4/I2C0_SDA/I2C0_SCL/LPUART0_RX/CLKOUT"/>
+                  <pin peripheral="GPIOA" signal="GPIO, 5" pin_num="5" pin_signal="PTA5/RTC_CLKIN/TPM0_CH1/SPI0_SS_b"/>
+                  <pin peripheral="GPIOA" signal="GPIO, 6" pin_num="6" pin_signal="PTA6/TPM0_CH0/SPI0_MISO"/>
+                  <pin peripheral="GPIOA" signal="GPIO, 7" pin_num="7" pin_signal="PTA7/IRQ_4/SPI0_MISO/SPI0_MOSI"/>
+                  <pin peripheral="GPIOB" signal="GPIO, 0" pin_num="8" pin_signal="ADC0_SE9/PTB0/IRQ_5/LLWU_P4/EXTRG_IN/SPI0_SCK/I2C0_SCL"/>
+                  <pin peripheral="LPUART0" signal="TX" pin_num="10" pin_signal="VREF_OUT/CMP0_IN5/PTB2/IRQ_7/LPUART0_RX/LPUART0_TX"/>
+                  <pin peripheral="I2C0" signal="SCL" pin_num="11" pin_signal="PTB3/IRQ_10/I2C0_SCL/LPUART0_TX"/>
+                  <pin peripheral="I2C0" signal="SDA" pin_num="12" pin_signal="PTB4/IRQ_11/I2C0_SDA/LPUART0_RX"/>
+                  <pin peripheral="GPIOB" signal="GPIO, 5" pin_num="13" pin_signal="ADC0_SE1/CMP0_IN1/PTB5/IRQ_12/TPM1_CH1/NMI_b"/>
+                  <pin peripheral="SWD" signal="SWD_CLK" pin_num="14" pin_signal="ADC0_SE15/CMP0_IN2/PTA0/IRQ_0/LLWU_P7/TPM1_CH0/SWD_CLK"/>
+                  <pin peripheral="RCM" signal="RESET" pin_num="15" pin_signal="PTA1/IRQ_1/LPTMR0_ALT1/TPM_CLKIN0/RESET_b"/>
+                  <pin peripheral="SWD" signal="SWD_DIO" pin_num="16" pin_signal="PTA2/CMP0_OUT/SWD_DIO"/>
+                  <pin peripheral="GPIOB" signal="GPIO, 1" pin_num="9" pin_signal="ADC0_SE8/CMP0_IN3/PTB1/IRQ_6/LPUART0_TX/LPUART0_RX/I2C0_SDA"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <clocks name="Clocks" version="6.0" enabled="true" update_project_code="true">
+         <generated_project_files>
+            <file path="board/clock_config.c" update_enabled="true"/>
+            <file path="board/clock_config.h" update_enabled="true"/>
+         </generated_project_files>
+         <clocks_profile>
+            <processor_version>6.0.0</processor_version>
+         </clocks_profile>
+         <clock_configurations>
+            <clock_configuration name="BOARD_BootClockRUN">
+               <description></description>
+               <options/>
+               <dependencies>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Clocks initialization requires the COMMON Driver in the project." problem_level="2" source="Clocks:BOARD_BootClockRUN">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <clock_sources>
+                  <clock_source id="MCG.HIRC.outFreq" value="48 MHz" locked="false" enabled="false"/>
+               </clock_sources>
+               <clock_outputs>
+                  <clock_output id="Bus_clock.outFreq" value="24 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Core_clock.outFreq" value="48 MHz" locked="false" accuracy=""/>
+                  <clock_output id="Flash_clock.outFreq" value="24 MHz" locked="false" accuracy=""/>
+                  <clock_output id="LPO_clock.outFreq" value="1 kHz" locked="false" accuracy=""/>
+                  <clock_output id="MCGIRCLK.outFreq" value="1 MHz" locked="false" accuracy=""/>
+                  <clock_output id="MCGPCLK.outFreq" value="48 MHz" locked="false" accuracy=""/>
+                  <clock_output id="System_clock.outFreq" value="48 MHz" locked="false" accuracy=""/>
+               </clock_outputs>
+               <clock_settings>
+                  <setting id="MCGMode" value="HIRC" locked="false"/>
+                  <setting id="MCG.CLKS.sel" value="MCG.HIRC" locked="false"/>
+                  <setting id="MCG.LIRCDIV2.scale" value="8" locked="true"/>
+                  <setting id="MCG_MC_HIRCEN_CFG" value="Enabled" locked="false"/>
+               </clock_settings>
+               <called_from_default_init>true</called_from_default_init>
+            </clock_configuration>
+         </clock_configurations>
+      </clocks>
+      <dcdx name="DCDx" version="2.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
+         <dcdx_profile>
+            <processor_version>N/A</processor_version>
+         </dcdx_profile>
+         <dcdx_configurations/>
+      </dcdx>
+      <periphs name="Peripherals" version="6.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
+         <peripherals_profile>
+            <processor_version>N/A</processor_version>
+         </peripherals_profile>
+         <functional_groups/>
+         <components/>
+      </periphs>
+      <tee name="TEE" version="1.0" enabled="false" update_project_code="true">
+         <generated_project_files/>
+         <tee_profile>
+            <processor_version>N/A</processor_version>
+         </tee_profile>
+         <global_options/>
+         <user_memory_regions/>
+      </tee>
+   </tools>
+</configuration>

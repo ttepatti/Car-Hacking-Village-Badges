@@ -1,0 +1,4 @@
+fsl_fxos.c:204:10:FXOS_ReadReg	24	static
+fsl_fxos.c:175:10:FXOS_ReadSensorData	24	static
+fsl_fxos.c:217:10:FXOS_WriteReg	16	static
+fsl_fxos.c:14:10:FXOS_Init	16	static

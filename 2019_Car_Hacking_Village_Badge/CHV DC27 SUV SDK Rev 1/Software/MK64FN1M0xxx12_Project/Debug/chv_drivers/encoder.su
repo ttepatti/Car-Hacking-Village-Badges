@@ -1,0 +1,5 @@
+encoder.c:56:6:encoder_init	72	static
+encoder.c:109:6:encoder_ui_reset	0	static
+encoder.c:114:6:encoder_motor_reset	0	static
+encoder.c:119:24:encoder_ui_get	0	static
+encoder.c:142:10:encoder_motor_get	0	static

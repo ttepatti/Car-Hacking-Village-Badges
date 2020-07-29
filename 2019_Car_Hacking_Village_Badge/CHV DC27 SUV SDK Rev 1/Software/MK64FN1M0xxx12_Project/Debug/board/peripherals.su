@@ -1,0 +1,9 @@
+peripherals.c:67:6:GPIO_1_init	0	static
+peripherals.c:171:6:ADC16_1_init	8	static
+peripherals.c:219:6:UART_1_init	8	static
+peripherals.c:342:6:FlexCAN_1_init	8	static
+peripherals.c:385:6:I2C_1_init	8	static
+peripherals.c:449:6:USB_1_init	8	static
+peripherals.c:477:6:GPIO_2_init	0	static
+peripherals.c:484:6:BOARD_InitPeripherals	8	static
+peripherals.c:499:6:BOARD_InitBootPeripherals	8	static

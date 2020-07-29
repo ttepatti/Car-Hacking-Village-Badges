@@ -1,0 +1,3 @@
+fsl_pmc.c:46:6:PMC_ConfigureLowVoltDetect	16	static
+fsl_pmc.c:58:6:PMC_ConfigureLowVoltWarning	16	static
+fsl_pmc.c:83:6:PMC_ConfigureBandgapBuffer	16	static

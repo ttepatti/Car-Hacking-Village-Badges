@@ -1,0 +1,3 @@
+fsl_clock.h:410:20:CLOCK_SetLpuart0Clock	16	static
+uart.c:50:6:uart_init	24	static
+uart.c:74:6:uart_tx	16	static

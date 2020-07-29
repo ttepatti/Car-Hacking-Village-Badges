@@ -1,0 +1,2 @@
+chv_app.c:95:13:vCHVTask	16	static
+chv_app.c:222:6:chv_app_init	16	static

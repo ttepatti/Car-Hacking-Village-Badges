@@ -1,0 +1,10 @@
+core_cm0plus.h:731:22:__NVIC_EnableIRQ	16	static
+fsl_common.h:363:28:EnableIRQ	16	static
+fsl_port.h:432:20:PORT_SetPinInterruptConfig	24	static
+fsl_gpio.h:314:20:GPIO_ClearPinsInterruptFlags	16	static
+accel.c:65:13:i2c_master_callback	24	static
+accel.c:79:13:I2C_WriteAccelReg	56	static
+accel.c:119:13:I2C_ReadAccelRegs	72	static
+accel.c:159:6:accel_process	48	static
+accel.c:212:6:accel_init	24	static
+accel.c:290:6:PORTB_IRQHandler	8	static

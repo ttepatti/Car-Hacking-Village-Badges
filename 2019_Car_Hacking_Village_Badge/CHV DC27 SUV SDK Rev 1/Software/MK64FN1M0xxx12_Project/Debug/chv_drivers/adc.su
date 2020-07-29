@@ -1,0 +1,2 @@
+adc.c:56:6:adc_init	0	static
+adc.c:62:10:adc_get_channel	0	static

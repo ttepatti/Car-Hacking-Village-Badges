@@ -1,0 +1,6 @@
+fsl_clock.h:378:20:CLOCK_EnableClock	24	static
+fsl_clock.h:389:20:CLOCK_DisableClock	24	static
+fsl_lptmr.c:74:17:LPTMR_GetInstance	24	static
+fsl_lptmr.c:93:6:LPTMR_Init	24	static
+fsl_lptmr.c:120:6:LPTMR_Deinit	24	static
+fsl_lptmr.c:140:6:LPTMR_GetDefaultConfig	16	static

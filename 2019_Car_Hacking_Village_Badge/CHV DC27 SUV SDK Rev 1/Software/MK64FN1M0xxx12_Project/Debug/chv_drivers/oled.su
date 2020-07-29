@@ -1,0 +1,5 @@
+oled.c:58:13:i2c_send_command	24	static
+oled.c:172:6:oled_write_framebuffer	16	static
+oled.c:184:6:oled_put_pixel	4	static
+oled.c:203:6:oled_clear	0	static
+oled.c:64:6:oled_init	32	static

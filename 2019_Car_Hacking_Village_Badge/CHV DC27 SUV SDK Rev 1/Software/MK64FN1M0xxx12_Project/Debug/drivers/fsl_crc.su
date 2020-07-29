@@ -1,0 +1,8 @@
+fsl_crc.c:105:13:CRC_ConfigureAndStart	0	static
+fsl_crc.c:140:13:CRC_SetProtocolConfig	24	static
+fsl_crc.c:164:13:CRC_SetRawProtocolConfig	24	static
+fsl_crc.c:188:6:CRC_Init	8	static
+fsl_crc.c:221:6:CRC_GetDefaultConfig	8	static
+fsl_crc.c:246:6:CRC_WriteData	0	static
+fsl_crc.c:287:10:CRC_Get32bitResult	0	static
+fsl_crc.c:301:10:CRC_Get16bitResult	0	static

@@ -1,0 +1,9 @@
+app.c:56:6:stoplight_mode	8	static
+app.c:109:13:blinky_mode	8	static
+app.c:126:13:accel_mode	24	static
+app.c:165:13:compass_mode	32	static
+app.c:226:13:night_on_mode	8	static
+app.c:235:13:night_blinky_mode	8	static
+app.c:251:13:night_accel_mode	24	static
+app.c:295:13:blink_mode	24	static
+app.c:310:6:app_main	24	static

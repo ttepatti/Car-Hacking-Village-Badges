@@ -1,0 +1,14 @@
+fsl_clock.h:378:20:CLOCK_EnableClock	24	static
+fsl_clock.h:389:20:CLOCK_DisableClock	24	static
+fsl_cmp.h:181:20:CMP_Enable	16	static
+fsl_cmp.c:60:17:CMP_GetInstance	24	static
+fsl_cmp.c:78:6:CMP_Init	24	static
+fsl_cmp.c:129:6:CMP_Deinit	16	static
+fsl_cmp.c:140:6:CMP_GetDefaultConfig	16	static
+fsl_cmp.c:155:6:CMP_SetInputChannels	24	static
+fsl_cmp.c:181:6:CMP_SetFilterConfig	24	static
+fsl_cmp.c:206:6:CMP_SetDACConfig	24	static
+fsl_cmp.c:227:6:CMP_EnableInterrupts	24	static
+fsl_cmp.c:242:6:CMP_DisableInterrupts	24	static
+fsl_cmp.c:257:10:CMP_GetStatusFlags	24	static
+fsl_cmp.c:276:6:CMP_ClearStatusFlags	24	static
