@@ -16,5 +16,5 @@ A (unofficial) list of all of the Car Hacking Village DEFCON badges and their as
 
 ## CHV Info
 
-*Website*: [carhackingvillage.com](https://www.carhackingvillage.com/)
-*Twitter*: [@CarHackVillage](https://twitter.com/CarHackVillage)
+- **Website**: [carhackingvillage.com](https://www.carhackingvillage.com/)
+- **Twitter**: [@CarHackVillage](https://twitter.com/CarHackVillage)
