@@ -26,6 +26,6 @@ I'll keep updating this repo each year that I remember, but in general, you shou
 ## CHV Info
 
 - **GitHub**: [car-hacking-village](https://github.com/car-hacking-village)
-- **Website***: [carhackingvillage.com](https://www.carhackingvillage.com/)
+- **Website**: [carhackingvillage.com](https://www.carhackingvillage.com/)
 - **Twitter**: [@CarHackVillage](https://twitter.com/CarHackVillage)
 - **Discord**: [Car Hacking Village](https://discord.gg/JWCcTAM)
