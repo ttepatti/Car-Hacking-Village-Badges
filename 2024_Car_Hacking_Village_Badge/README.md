@@ -1,14 +1,14 @@
 # 2024 Car Hacking Village Badge
 
-*Event:* DEFCON 32
+**Event**: DEFCON 32
 
 The badge was also available for purchase on [Hacker Warehouse](https://hackerwarehouse.com/product/car-hacking-village-2024-badge/)
 
 ## Firmware / SDK / Files
 
-- *Badge PCB Repo:* [car-hacking-village/DC32_CHV_Badge_Board](https://github.com/car-hacking-village/DC32_CHV_Badge_Board)
-- *Badge Firmware Repo:* [car-hacking-village/DC32_CHV_Badge_Firmware](https://github.com/car-hacking-village/DC32_CHV_Badge_Firmware)
-- *Badge Speedometer Firmware Repo:* [car-hacking-village/DC32_CHV_Speedometer_Firmware](https://github.com/car-hacking-village/DC32_CHV_Speedometer_Firmware)
+- **Badge PCB Repo**: [car-hacking-village/DC32_CHV_Badge_Board](https://github.com/car-hacking-village/DC32_CHV_Badge_Board)
+- **Badge Firmware Repo**: [car-hacking-village/DC32_CHV_Badge_Firmware](https://github.com/car-hacking-village/DC32_CHV_Badge_Firmware)
+- **Badge Speedometer Firmware Repo**: [car-hacking-village/DC32_CHV_Speedometer_Firmware](https://github.com/car-hacking-village/DC32_CHV_Speedometer_Firmware)
 
 ## Specifications
 
